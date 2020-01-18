@@ -9,6 +9,10 @@ ll recur(ll a,ll b,ll mn){
 int main(){
 	ll a,b,mn;
 	cin>>a>>b;
+	if(a<0)
+		a = -a;
+	if(b<0)
+		b = -b;
 	mn = min(a,b);
 	cout<<"Iterative"<<endl;
 	if(mn==1){
