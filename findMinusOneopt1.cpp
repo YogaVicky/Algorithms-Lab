@@ -2,7 +2,6 @@
 #define ll long long int
 using namespace std;
 int main(){
-	clock_t start = clock();
 	ll n,mid,beg,end;
 	int ans = INT_MAX;
 	cin>>n;
@@ -28,8 +27,5 @@ int main(){
 		else
 			beg = mid+1;
 	}
-	clock_t end = clock();
-  	double cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
-	cout<<cpu_time_used<<endl;
 	return 0;
 }

@@ -8,6 +8,8 @@ int main(){
 	vector<ll>a(n);
 	for(i=0;i<n;i++){
 		cin>>a[i];
+	}
+	for(i=0;i<n;i++){
 		if(m.find(a[i])==m.end()){
 			m[a[i]] = i;
 		}
