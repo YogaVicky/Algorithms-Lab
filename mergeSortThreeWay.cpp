@@ -61,8 +61,3 @@ int main(){
 		c[i] = a[i];
 	return 0;
 }
-// 1. Given 'n' numbers, compute GCD using DC.   Similarly, LCD
-// 2. Count the number of 1's in a binary array using DC
-// 3. Count the number of negative numbers in an integer array using DC
-// 4. Implement Towers of Hanoi.
-// 5. Implement 2-way, 3-way merge sort.    Trace the code to understand how the stack is updated.
